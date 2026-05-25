@@ -1,0 +1,31 @@
+# Python virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Sensitive credentials
+.env
+.env.local
+.env.*.local
+
+# Local vector indices and uploaded user documents
+backend/data/
+
+# Python caching
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Frontend dependencies and builds
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Editor configs & system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
